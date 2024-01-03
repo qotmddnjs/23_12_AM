@@ -32,7 +32,7 @@ public class Member {
 
 		int lastArticleId = 3;
 
-		MemberController memberController = new MemberController(sc, members);
+		MemberController memberController = new MemberController(sc);
 
 		while (true) {
 			System.out.print("명령어 > ");
